@@ -1,8 +1,13 @@
 pragma solidity ^0.5.0;
 
 // ----------------------------------------------------------------------------
-// ERC Token Standard #20 Interface
+// 'PRD' 'PolkaRoad' BEP20 token contract
 //
+// Symbol      : PRD
+// Name        : PolkaRoad
+// Total supply: 21,000,000
+// Decimals    : 18
+// Website     : https://polkaroad.net
 // ----------------------------------------------------------------------------
 contract ERC20Interface {
     function totalSupply() public view returns (uint);
